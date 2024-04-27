@@ -1,4 +1,4 @@
-# Bridg - NextJS
+# Bridg - NextJS - App Router example
 
 ### Up and Running
 
