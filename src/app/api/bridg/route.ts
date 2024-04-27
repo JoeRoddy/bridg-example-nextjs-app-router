@@ -1,7 +1,7 @@
+import { rules } from '@/../prisma/bridg';
 import { PrismaClient } from '@prisma/client';
 import { handleRequest } from 'bridg/server/request-handler';
 import { NextRequest, NextResponse } from 'next/server';
-import { rules } from '../../../../prisma/bridg';
 
 const db = new PrismaClient();
 
