@@ -9,7 +9,7 @@ export const rules: DbRules = {
     // find: (uid) => ({ id: uid }) - query based authorization
     find: (uid) => true,
     update: (uid, data) => false,
-    create: (uid, data) => false,
+    create: (uid, data) => true,
     delete: (uid) => false,
   },
 };
